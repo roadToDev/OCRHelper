@@ -1,0 +1,2450 @@
+{
+  "blocks": [
+    [
+      {
+        "date": "2018-05-08",
+        "descr": "",
+        "amount": -373.35,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-31",
+        "descr": "",
+        "amount": -373.35,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-08",
+        "descr": "",
+        "amount": -373.35,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-18",
+        "descr": "",
+        "amount": -373.35,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "",
+        "amount": -373.35,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "",
+        "amount": -373.35,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "",
+        "amount": -373.35,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-31",
+        "descr": "",
+        "amount": -194.85,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-08",
+        "descr": "",
+        "amount": -194.85,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-18",
+        "descr": "",
+        "amount": -194.85,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "",
+        "amount": -194.85,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "",
+        "amount": -194.85,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "",
+        "amount": -194.85,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-31",
+        "descr": "",
+        "amount": -219.74,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-18",
+        "descr": "",
+        "amount": -219.74,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "",
+        "amount": -219.74,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "",
+        "amount": -219.74,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "",
+        "amount": -219.74,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-06",
+        "descr": "Purchase authorized on 06/05 Cintas 342 800-2468271 IA S388156376320528 Card 4920",
+        "amount": -53.6,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-13",
+        "descr": "Purchase authorized on 06/12 Cintas 342 800-2468271 IA S388163383393177 Card 4920",
+        "amount": -53.6,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-20",
+        "descr": "Purchase authorized on 06/19 Cintas 342 800-2468271 IA S588170378131878 Card 4920",
+        "amount": -53.6,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-27",
+        "descr": "Purchase authorized on 06/26 Cintas 342 800-2468271 IA S468177375537348 Card 4920",
+        "amount": -53.6,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-05",
+        "descr": "Purchase authorized on 07/03 Cintas 342 800-2468271 IA S308184376081480 Card 4920",
+        "amount": -53.6,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-11",
+        "descr": "Purchase authorized on 07/10 Cintas 342 800-2468271 IA S308191382390036 Card 4920",
+        "amount": -53.6,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-18",
+        "descr": "Purchase authorized on 07/17 Cintas 342 800-2468271 IA S468198376585419 Card 4920",
+        "amount": -53.6,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-25",
+        "descr": "Purchase authorized on 07/24 Cintas 342 800-2468271 IA S308205375910704 Card 4920",
+        "amount": -53.6,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-02",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4265281299",
+        "amount": -700,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-02",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -700,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-16",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -700,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-31",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -700,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-02",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4265281299",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-02",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-12",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4265281299",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-27",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-27",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4265281299",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-13",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-28",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-28",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4300843293",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-29",
+        "descr": "eTransfer Debit, Online Xfer Transfer to CK 4265281299",
+        "amount": -500,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-11",
+        "descr": "DEBIT CARD PAYMENT, AUT 051018 VISA DDA PUR NEW JERSEY E ZPASS 888 288 6865 * NJ 4085404019846470",
+        "amount": -95,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-22",
+        "descr": "DEBIT CARD PAYMENT, AUT 052118 VISA DDA PUR NEW JERSEY EZPASS 888 288 6865 * NJ 4085404019846470",
+        "amount": -95,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-24",
+        "descr": "DEBIT CARD PURCHASE, AUT 052318 VISA DDA PUR CONOCO AMERICAN FUEL WEST ORANGE * NJ 4085404019846470",
+        "amount": -95,
+        "tags": "WithdrawalAdvance$"
+      },
+      {
+        "date": "2018-05-24",
+        "descr": "DEBIT CARD PURCHASE, AUT 052318 VISA DDA PUR CONOCO AMERICAN FUEL WEST ORANGE * NJ 4085404019846470",
+        "amount": -95,
+        "tags": "WithdrawalAdvance$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-30",
+        "descr": "",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-02",
+        "descr": "",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-05",
+        "descr": "",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-16",
+        "descr": "",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-09",
+        "descr": "07/07",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-20",
+        "descr": "",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-25",
+        "descr": "",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-02",
+        "descr": "lou Central Transfer 1755315 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-03",
+        "descr": "lou Central Transfer 1755871 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-05",
+        "descr": "lou Central Transfer 1756443 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-06",
+        "descr": "lou Central Transfer 1757091 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-09",
+        "descr": "lou Central Transfer 1757624 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-10",
+        "descr": "lou Central Transfer 1758164 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-11",
+        "descr": "lou Central Transfer 1758718 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-12",
+        "descr": "lou Central Transfer 1759367 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-13",
+        "descr": "lou Central Transfer 1759901 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-16",
+        "descr": "lou Central Transfer 1760426 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-17",
+        "descr": "lou Central Transfer 1760941 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-18",
+        "descr": "lou Central Transfer 1761495 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-19",
+        "descr": "lou Central Transfer 1762155 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-20",
+        "descr": "lou Central Transfer 1762688 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "lou Central Transfer 1763218 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-25",
+        "descr": "lou Central Transfer 1764324 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-26",
+        "descr": "lou Central Transfer 1764991 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-27",
+        "descr": "lou Central Transfer 1765539 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-30",
+        "descr": "lou Central Transfer 1766071 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-31",
+        "descr": "lou Central Transfer 1766619 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-25",
+        "descr": "lou Central Transfer 1763764 CCD ID: 1810949681",
+        "amount": -519.68,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-18",
+        "descr": "* A",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-20",
+        "descr": "A",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-20",
+        "descr": "A",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "A",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "A",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-25",
+        "descr": "A",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-09",
+        "descr": "* A",
+        "amount": -1955,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-09",
+        "descr": "A",
+        "amount": -1955,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-29",
+        "descr": "A",
+        "amount": -1955,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-30",
+        "descr": "A",
+        "amount": -1955,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-01",
+        "descr": "Amex - Debit ACH Debitach 018120000002118 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-02",
+        "descr": "Amex - Debit ACH Debitach 018121000002182 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-03",
+        "descr": "Amex - Debit ACH Debitach 018122000002257 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-04",
+        "descr": "Amex - Debit ACH Debitach 018123000002056 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-07",
+        "descr": "Amex - Debit ACH Debitach 018126000002010 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-08",
+        "descr": "Amex - Debit ACH Debitach 018127000002014 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-09",
+        "descr": "Amex - Debit ACH Debitach 018128000002034 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-10",
+        "descr": "Amex - Debit ACH Debitach 018129000001977 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-11",
+        "descr": "Amex - Debit ACH Debitach 018130000001946 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-14",
+        "descr": "Amex - Debit ACH Debitach 018133000001898 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-15",
+        "descr": "Amex - Debit ACH Debitach 018134000001906 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-16",
+        "descr": "Amex - Debit ACH Debitach 018135000001916 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-17",
+        "descr": "Amex - Debit ACH Debitach 018136000001859 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-18",
+        "descr": "Amex - Debit ACH Debitach 018137000001834 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-21",
+        "descr": "Amex - Debit ACH Debitach 018140000001793 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-22",
+        "descr": "Amex - Debit ACH Debitach 018141000001801 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "Amex - Debit ACH Debitach 018142000001795 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-24",
+        "descr": "Amex - Debit ACH Debitach 018143000001753 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-25",
+        "descr": "Amex - Debit ACH Debitach 018144000001728 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-29",
+        "descr": "Amex - Debit ACH Debitach 018148000001682 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-30",
+        "descr": "Amex - Debit ACH Debitach 018149000001660 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-31",
+        "descr": "Amex - Debit ACH Debitach 018150000001682 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-01",
+        "descr": "Amex - Debit ACH Debitach 018151000001646 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-04",
+        "descr": "Amex - Debit ACH Debitach 018154000001597 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-05",
+        "descr": "Amex - Debit ACH Debitach 018155000001590 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-06",
+        "descr": "Amex - Debit ACH Debitach 018156000001600 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-07",
+        "descr": "Amex - Debit ACH Debitach 018157000001546 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-08",
+        "descr": "Amex - Debit ACH Debitach 018158000001523 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-11",
+        "descr": "Amex - Debit ACH Debitach 018161000001482 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-12",
+        "descr": "Amex - Debit ACH Debitach 018162000001477 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-13",
+        "descr": "Amex - Debit ACH Debitach 018163000001501 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-14",
+        "descr": "Amex - Debit ACH Debitach 018164000001446 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-15",
+        "descr": "Amex - Debit ACH Debitach 018165000001430 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-18",
+        "descr": "Amex - Debit ACH Debitach 018168000001382 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-19",
+        "descr": "Amex - Debit ACH Debitach 018169000001389 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-20",
+        "descr": "Amex - Debit ACH Debitach 018170000001390 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-21",
+        "descr": "Amex - Debit ACH Debitach 018171000001339 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-22",
+        "descr": "Amex - Debit ACH Debitach 018172000001301 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "Amex - Debit ACH Debitach 018175000001276 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-26",
+        "descr": "Amex - Debit ACH Debitach 018176000001264 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-27",
+        "descr": "Amex - Debit ACH Debitach 018177000001264 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-28",
+        "descr": "Amex - Debit ACH Debitach 018178000001222 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-29",
+        "descr": "Amex - Debit ACH Debitach 018179000001196 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-02",
+        "descr": "Amex - Debit ACH Debitach 018182000001145 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-03",
+        "descr": "Amex - Debit ACH Debitach 018183000001157 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-05",
+        "descr": "Amex - Debit ACH Debitach 018185000001137 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-06",
+        "descr": "Amex - Debit ACH Debitach 018186000001105 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-09",
+        "descr": "Amex - Debit ACH Debitach 018189000001083 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-10",
+        "descr": "Amex - Debit ACH Debitach 018190000001079 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-11",
+        "descr": "Amex - Debit ACH Debitach 018191000001071 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-12",
+        "descr": "Amex - Debit ACH Debitach 018192000001044 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-13",
+        "descr": "Amex - Debit ACH Debitach 018193000001033 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-16",
+        "descr": "Amex - Debit ACH Debitach 018196000000993 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-17",
+        "descr": "Amex - Debit ACH Debitach 018197000001006 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-18",
+        "descr": "Amex - Debit ACH Debitach 018198000001017 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-19",
+        "descr": "Amex - Debit ACH Debitach 018199000000982 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-20",
+        "descr": "Amex - Debit ACH Debitach 018200000000968 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "Amex - Debit ACH Debitach 018203000000931 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-24",
+        "descr": "Amex - Debit ACH Debitach 018204000000939 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-25",
+        "descr": "Amex - Debit ACH Debitach 018205000000954 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-26",
+        "descr": "Amex - Debit ACH Debitach 018206000000894 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-27",
+        "descr": "Amex - Debit ACH Debitach 018207000000864 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-30",
+        "descr": "Amex - Debit ACH Debitach 018210000000815 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-31",
+        "descr": "Amex - Debit ACH Debitach 018211000000835 CCD ID: 2411982361",
+        "amount": -132,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-02",
+        "descr": "Purchase authorized on 06/29 Terribite LLC WWW.Terribite DE S588181077096671 Card 7650",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-06",
+        "descr": "Purchase authorized on 07/05 Sqc'Square Cash 8774174551 CA S588187088393498 Card 7212",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-11",
+        "descr": "Purchase authorized on 07/10 Sqc'Square Cash 8774174551 CA S388192016034814 Card 7212",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-20",
+        "descr": "Purchase authorized on 07/19 Sqc'Quincy Farley 8774174551 CA S588200793054024Card 7212",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "Purchase authorized on 07/20 Sqc'Quincy Farley 8774174551 CA S468201846964044 Card 7212",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-25",
+        "descr": "CHECKCARD 0624 DELTA DELTA.COM CA 5541 73481 76871 761432208 CKCD 3058 XXXXXXXXXXXX2303 XXXX XXXX XXXX 2303",
+        "amount": -273.4,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "CHECKCARD 0624 DELTA DELTA.COM CA 5541 73481 76871 7614321 74 CKCD 3058 XXXXXXXXXXXX2303 XXXX XXXX XXXX 2303",
+        "amount": -273.4,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "CHECKCARD 0624 DELTA DELTA.COM CA 5541 73481 76871 761432190 CKCD 3058 XXXXXXXXXXXX2303 XXXX XXXX XXXX 2303",
+        "amount": -273.4,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "CHECKCARD 0624 DELTA DELTA.COM CA 5541 73481 76871 7614321 82 CKCD 3058 XXXXXXXXXXXX2303 XXXX XXXX XXXX 2303",
+        "amount": -273.4,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-12",
+        "descr": "",
+        "amount": -5000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-13",
+        "descr": "",
+        "amount": -5000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-20",
+        "descr": "",
+        "amount": -5000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-06",
+        "descr": "",
+        "amount": -5000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-27",
+        "descr": "",
+        "amount": -5000,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-13",
+        "descr": "E Advance Servic DES:TRN ID:T712182nPQAQ INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-16",
+        "descr": "E Advance Servic DES:TRN ID:T7131834aQAA INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-17",
+        "descr": "E Advance Servic DES:TRN ID:T716183HHQAY INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-18",
+        "descr": "E Advance Servic DES:TRN ID:T7171 83XQQAY INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-19",
+        "descr": "E Advance Servic DES:TRN ID:T7181 83wqQAA INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-20",
+        "descr": "E Advance Servic DES:TRN ID:T7191842vQAA INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "E Advance Servic DES:TRN ID:T7201 84LFQAY INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-24",
+        "descr": "E Advance Servic DES:TRN ID:T7231 84arQAA INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-25",
+        "descr": "E Advance Servic DES:TRN ID:T7241 84sWQAQ INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-26",
+        "descr": "E Advance Servic DES:TRN ID:T7251 857sQAA INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-27",
+        "descr": "E Advance Servic DES:TRN ID:T7261 85PrQAI INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-30",
+        "descr": "E Advance Servic DES:TRN ID:T7271 85gMQAQ INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-31",
+        "descr": "E Advance Servic DES:TRN ID:T7301 861 mQAA INDN:CITYSOUND OF BRIDGEPOR CO ID:1 824070316 CCD",
+        "amount": -149,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-02",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-05",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236472",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-11",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236472",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-18",
+        "descr": "ONLINE BANKING TRANSLER TO 0175 1000198236472",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-19",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-04",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -6000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-11",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236472",
+        "amount": -6000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-18",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -6000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-20",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236472",
+        "amount": -6000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-27",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236472",
+        "amount": -6000,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-08",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-12",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-14",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236472",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-21",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-22",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236472",
+        "amount": -8000,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-20",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-26",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236472",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-27",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-28",
+        "descr": "ONLINE BANKING TRANSFER TO 0175 1000198236464",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-04",
+        "descr": "WIRE TYPE:WIRE OUT DATE:180504 TIME:! 003 ET TRN:201 8050400234712 SERVICE REF:005190 BNF:BAR DE TAPAS CASA LOPEZ ID:81 001001 5 BNF BK:FA LCON INTERNATIONAL BA ID:! 1491 5803 PMT DET:2306544 94",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-04",
+        "descr": "WIRE TYPE:WIRE OUT DATE:! 80504 TIME:1007 ET TRN:201 8050400236085 SERVICE REF:005247 BNF:BAR DE TAPAS CASA LOPEZ ID:810010015 BNF BK:FA LCON INTERNATIONAL BA ID:! 1491 5803 PMT DET:2306549 44",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-16",
+        "descr": "WIRE TYPE:WIRE OUT DATE:180516 TIME:0936 ET TRN:201 8051600223539 SERVICE REF:004929 BNF:BAR DE TAPAS CASA LOPEZ ID:81 001001 5 BNF BK:FA LCON INTERNATIONAL BA ID:114915803 PMT DET:2315628 80",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-29",
+        "descr": "WIRE TYPE:WIRE OUT DATE:180529 TIME:0854 ET TRN:201 8052900402464 SERVICE REF:006837 BNF:REDELIFT,LLC ID:122781 714 BNF BK:FALCON INTERN ATIONAL BA ID:114915803 PMT DET:232497396",
+        "amount": -2000,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-08-01",
+        "descr": "Online Transfer to Renaissance Assisted Livings, LLC Business Checking xxxxxx5795 Ref #lb04x82Fqf on 08/01/18",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-08-20",
+        "descr": "Online Transfer to Camelback Manor Assisted Living, LLC Business Checking xxxxxx5787 Ref #lb04Zhhy2H on 08/18/18",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-08-20",
+        "descr": "Online Transfer to Camelback Manor Assisted Living, LLC Business Checking xxxxxx5787 Ref #l b04Zlj8CT on 08/19/18",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-08-20",
+        "descr": "Online Transfer to Camelback Manor Assisted Living, LLC Business Checking xxxxxx5787 Ref #lb04Znypl8 on 08/20/18",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "0016-05-17",
+        "descr": "BITTERSWEET GOLF C GURNEE IL US",
+        "amount": -55,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0016-05-23",
+        "descr": "BITTERSWEET GOLF C GURNEE IL US",
+        "amount": -55,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0016-05-24",
+        "descr": "BITTERSWEET GOLF C GURNEE IL US",
+        "amount": -55,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0016-05-31",
+        "descr": "BITTERSWEET GOLF C GURNEE IL US",
+        "amount": -55,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0016-05-31",
+        "descr": "BITTERSWEET GOLF C GURNEE IL US",
+        "amount": -55,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "0018-05-18",
+        "descr": "4299",
+        "amount": -1018.38,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0018-05-15",
+        "descr": "4303",
+        "amount": -1018.38,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0018-05-08",
+        "descr": "4308",
+        "amount": -1018.38,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0018-05-14",
+        "descr": "4310",
+        "amount": -1018.38,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "0018-05-02",
+        "descr": "4245*",
+        "amount": -1018.39,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0018-05-01",
+        "descr": "4249*",
+        "amount": -1018.39,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0018-05-31",
+        "descr": "4353",
+        "amount": -1018.39,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0018-05-30",
+        "descr": "4357",
+        "amount": -1018.39,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0018-05-22",
+        "descr": "4362",
+        "amount": -1018.39,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "0018-05-29",
+        "descr": "4364",
+        "amount": -1018.39,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-05",
+        "descr": "Purchase authorized on 07/03 USPS Postage Stam 310-482-5800 CA S468184679217990 Card 9066",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-11",
+        "descr": "Purchase authorized on 07/09 USPS Postage Stam 310-482-5800 CA S588190769988936 Card 9066",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "Purchase authorized on 07/19 USPS Postage Stam 310-482-5800 CA S308200647139189 Card 9066",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-27",
+        "descr": "Purchase authorized on 07/25 USPS Postage Stam 310-482-5800 CA S468206742080142 Card 9066",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-04",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 46Jqwh4V1Af3 Cindy L Olesen",
+        "amount": -102.99,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-11",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 Qhczhbcn1Af3 Cindy L Olesen",
+        "amount": -102.99,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-19",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 Lo1R7W801Af3 Cindy L Olesen",
+        "amount": -102.99,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 K5V027Nz1Af3 Cindy L Olesen",
+        "amount": -102.99,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-04",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 Whn2Nzla1Af3 Cindy L Olesen",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-11",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 MOXbepqf1Af3 Cindy L Olesen",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-19",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 Fcenv8Uz1Af3 Cindy L Olesen",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 Rftaiuxv1Af3 Cindy L Olesen",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-07",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 S8A72Kg11Af3 Cindy L Olesen",
+        "amount": -102.99,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-14",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 Eg52Px1R1Af3 Cindy L Olesen",
+        "amount": -102.99,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-21",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 157Vmbrx1Af3 Cindy L Olesen",
+        "amount": -102.99,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-29",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 Oyhu403T1Af3 Cindy L Olesen",
+        "amount": -102.99,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-07",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 Xzyc9x271Af3 Cindy L Olesen",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-14",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 lz3Gf2D41Af3 Cindy L Olesen",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-21",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 JOZ9Tncq1Af3 Cindy L Olesen",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-29",
+        "descr": "Coinbase.Com/Btc 8889087930 SD1300 U6Pnrna51Af3 Cindy L Olesen",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-16",
+        "descr": "",
+        "amount": -1000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-03",
+        "descr": "",
+        "amount": -1000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-24",
+        "descr": "",
+        "amount": -1000,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-05",
+        "descr": "",
+        "amount": -1000,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-16",
+        "descr": "",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-06",
+        "descr": "",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-05",
+        "descr": "",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-31",
+        "descr": "",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-05",
+        "descr": "CHECKCARD 0703 SNAP ON MCDONOUGH GA 246921 68185100567365112 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-12",
+        "descr": "CHECKCARD 0710 SNAP ON MCDONOUGH GA 246921 681921001 53413434 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-19",
+        "descr": "CHECKCARD 071 7 SNAP ON MCDONOUGH GA 246921 68199100974208719 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-26",
+        "descr": "CHECKCARD 0724 SNAP ON MCDONOUGH GA 246921 68206100751977206 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-02",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-03",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-05",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-06",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-09",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-10",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-11",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-12",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-13",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-16",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-17",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-18",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-19",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-20",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-24",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-25",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-26",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-27",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-30",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-31",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-02",
+        "descr": "CHECKCARD 0629 MATCO TOOLS 800-433-7098 OH 24431068180988014668960 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-09",
+        "descr": "CHECKCARD 0706 MATCO TOOLS 800-433-7098 OH 24431068187988014814278 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-09",
+        "descr": "CHECKCARD 0707 TODD MURRAY MATCO DOUGLASVILLE GA 246921 681 89100621210060 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-16",
+        "descr": "CHECKCARD 0713 MATCO TOOLS 800-433-7098 OH 24431068194988014965170 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-16",
+        "descr": "CHECKCARD 0713 TODD MURRAY MATCO DOUGLASVILLE GA 24692168195100823947685 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "CHECKCARD 0720 MATCO TOOLS 800-433-7098 OH 24431068201988015125239 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "CHECKCARD 0720 TODD MURRAY MATCO DOUGLASVILLE GA 246921 68202100709664967 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-30",
+        "descr": "CHECKCARD 0727 MATCO TOOLS 800-433-7098 OH 24431068208988015278890 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-30",
+        "descr": "CHECKCARD 0727 TODD MURRAY MATCO DOUGLASVILLE GA 246921 68209100410324300 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-07",
+        "descr": "CHECKCARD 0605 SNAP ON MCDONOUGH GA 246921 68157100812223284 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-14",
+        "descr": "CHECKCARD 0612 SNAP ON MCDONOUGH GA 246921 68164100407385481 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-21",
+        "descr": "CHECKCARD 0619 SNAP ON MCDONOUGH GA 246921 68171100049799629 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-28",
+        "descr": "CHECKCARD 0626 SNAP ON MCDONOUGH GA 246921 68178100734987722 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-01",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-04",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-05",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-06",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-07",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-08",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-11",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-12",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-13",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-14",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-15",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-18",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-19",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-20",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-21",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-22",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-26",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-27",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-28",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-29",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-04",
+        "descr": "CHECKCARD 0601 MATCO TOOLS 800-433-7098 OH 24431068152988014044471 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-04",
+        "descr": "CHECKCARD 0601 TODD MURRAY MATCO DOUGLASVILLE GA 246921 681 53100761323337 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-05",
+        "descr": "CHECKCARD 0604 QT 780 07007800 DECATUR GA 243990081 55993128225845 CKCD 5542 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-11",
+        "descr": "CHECKCARD 0608 MATCO TOOLS 800-433-7098 OH 24431068159988014202585 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-11",
+        "descr": "CHECKCARD 0608 TODD MURRAY MATCO DOUGLASVILLE GA 246921 681 60100454662638 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-18",
+        "descr": "CHECKCARD 0615 MATCO TOOLS 800-433-7098 OH 24431068166988014357182 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-18",
+        "descr": "CHECKCARD 061 5 TODD MURRAY MATCO DOUGLASVILLE GA 246921 681 67100039681270 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "CHECKCARD 0622 MATCO TOOLS 800-433-7098 OH 24431068173988014518073 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "CHECKCARD 0622 TODD MURRAY MATCO DOUGLASVILLE GA 246921 681 74100674700949 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-07",
+        "descr": "",
+        "amount": -900,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-21",
+        "descr": "",
+        "amount": -900,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-14",
+        "descr": "",
+        "amount": -900,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-29",
+        "descr": "",
+        "amount": -900,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-03",
+        "descr": "CHECKCARD 0501 SNAP ON MCDONOUGH GA 246921 68122100669701178 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-10",
+        "descr": "CHECKCARD 0508 SNAP ON MCDONOUGH GA 246921 68129100404055958 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-17",
+        "descr": "CHECKCARD 051 5 SNAP ON MCDONOUGH GA 246921 68136100055846128 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-24",
+        "descr": "CHECKCARD 0522 SNAP ON MCDONOUGH GA 246921 68143100589846413 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-31",
+        "descr": "CHECKCARD 0529 SNAP ON MCDONOUGH GA 246921 68150100124391370 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -100,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-01",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-02",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-03",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-04",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-07",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-08",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-09",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-10",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-11",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-14",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-15",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-16",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-17",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-18",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-21",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-22",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-23",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-24",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-25",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-29",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-30",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-31",
+        "descr": "BFS RCVBLS 1 DES:ACH ITEMS ID:1612955 INDN:Need-A-Fix / Need a Fi CO ID:2823634827 CCD",
+        "amount": -250,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-05-07",
+        "descr": "CHECKCARD 0504 MATCO TOOLS 800-433-7098 OH 24431068124988013401784 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-07",
+        "descr": "CHECKCARD 0504 TODD MURRAY MATCO DOUGLASVILLE GA 246921 68125100379145481 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-14",
+        "descr": "CHECKCARD 0511 MATCO TOOLS 800-433-7098 OH 24431068131988013566835 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-14",
+        "descr": "CHECKCARD 0511 TODD MURRAY MATCO DOUGLASVILLE GA 246921 68132100026000940 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-21",
+        "descr": "CHECKCARD 0518 MATCO TOOLS 800-433-7098 OH 24431068138988013731978 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-29",
+        "descr": "CHECKCARD 0525 MATCO TOOLS 800-433-7098 OH 24431068145988013891476 CKCD 5072 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-05-29",
+        "descr": "CHECKCARD 0525 TODD MURRAY MATCO DOUGLASVILLE GA 246921 68146100180380959 CKCD 5251 XXXXXXXXXXXX5420 XXXX XXXX XXXX 5420",
+        "amount": -50,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-07-02",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-03",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-05",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-06",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-09",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-10",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-11",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-13",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-16",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-17",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-18",
+        "descr": "Business to Business ACH Debit - Merchant Advance MA 180717 2073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-18",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-19",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-20",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-23",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-24",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-27",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-30",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-07-31",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-14",
+        "descr": "Business to Business ACH Debit - Merch Advance Corp Colle 180614 0020732 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-15",
+        "descr": "Business to Business ACH Debit - Merchant Advance NSF1 180614 0020732 Abba Homecare",
+        "amount": -400,
+        "tags": "NSF$"
+      },
+      {
+        "date": "2018-06-18",
+        "descr": "Business to Business ACH Debit - Merch Advance Corp Colle 180618 0020732 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-19",
+        "descr": "Business to Business ACH Debit - Merchant Advance NSF1 180618 0020732 Abba Homecare",
+        "amount": -400,
+        "tags": "NSF$"
+      },
+      {
+        "date": "2018-06-20",
+        "descr": "Business to Business ACH Debit - Merchant Advance NSF1 180619 0020732 Abba Homecare",
+        "amount": -400,
+        "tags": "NSF$"
+      },
+      {
+        "date": "2018-06-21",
+        "descr": "Business to Business ACH Debit - Merchant Advance NSF1 180620 0020732 Abba Homecare",
+        "amount": -400,
+        "tags": "NSF$"
+      },
+      {
+        "date": "2018-06-22",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-26",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-27",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-28",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-29",
+        "descr": "Business to Business ACH Debit - Merchant ADV8967 Debits 002073 Abba Homecare",
+        "amount": -400,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-04",
+        "descr": "Check",
+        "amount": -150,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-14",
+        "descr": "Check",
+        "amount": -150,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-18",
+        "descr": "Check",
+        "amount": -150,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-20",
+        "descr": "Check",
+        "amount": -150,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-22",
+        "descr": "Check",
+        "amount": -150,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-29",
+        "descr": "Check",
+        "amount": -150,
+        "tags": "GenericWithdrawals$"
+      }
+    ],
+    [
+      {
+        "date": "2018-06-07",
+        "descr": "Check",
+        "amount": -200,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-19",
+        "descr": "Check",
+        "amount": -200,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-25",
+        "descr": "Check",
+        "amount": -200,
+        "tags": "GenericWithdrawals$"
+      },
+      {
+        "date": "2018-06-26",
+        "descr": "Check",
+        "amount": -200,
+        "tags": "GenericWithdrawals$"
+      }
+    ]
+  ]
+}

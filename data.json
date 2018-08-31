@@ -1,0 +1,56 @@
+{
+  "oppos" : [
+    {
+      "id" : "006f400000CQlBpAAL",
+      "name" : "JJs Pro-Tap - 8/22/2018 - 1",
+      "stages" : [
+        {
+          "name" : "DocumentsDownloaded",
+          "stageStatus" : {
+            "statusStr" : "CompletedStStatus",
+            "log" : "List((Attachment(00Pf4000006JynEEAS,June 2018 Statement.pdf,005f4000002lRbOAAU,006f400000CQlBpAAL),Right(Inbox/006f400000CQlBpAAL/June 2018 Statement<006f400000CQlBpAAL>.pdf)), (Attachment(00Pf4000006JyiUEAS,July 31 2018 statement.pdf,005f4000002lRbOAAU,006f400000CQlBpAAL),Right(Inbox/006f400000CQlBpAAL/July 31 2018 statement<006f400000CQlBpAAL>.pdf)), (Attachment(00Pf4000006JynJEAS,May 2018 Statement.pdf,005f4000002lRbOAAU,006f400000CQlBpAAL),Right(Inbox/006f400000CQlBpAAL/May 2018 Statement<006f400000CQlBpAAL>.pdf)))",
+            "errors" : [
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id" : "006f400000CQnVuAAL",
+      "name" : "STRIDER SECURITY - 8/23/2018 - 1",
+      "stages" : [
+        {
+          "name" : "FilesAttached",
+          "stageStatus" : {
+            "statusStr" : "CompletedStStatus",
+            "log" : "List((Attachment(00Pf4000006KSp2EAG,April 2018 File.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/April 2018 File<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KSp7EAG,Jun 2018 File.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/Jun 2018 File<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KSpCEAW,BANK MARCH 2018 DAILY.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/BANK MARCH 2018 DAILY<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KSikEAG,BKJDLN.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/BKJDLN<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KSr8EAG,DL.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/DL<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KSr3EAG,VC.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/VC<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KShhEAG,CCR.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/CCR<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KShcEAG,APP ELITE STRYDER 8-21-18.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/APP ELITE STRYDER 8-21-18<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KSosEAG,July 2018 File.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/July 2018 File<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KSoxEAG,May 2018 File.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/May 2018 File<006f400000CQnVuAAL>.pdf)), (Attachment(00Pf4000006KSj9EAG,BKJDLN.pdf,005f40000033trDAAQ,006f400000CQnVuAAL),Right(Inbox/006f400000CQnVuAAL/BKJDLN<006f400000CQnVuAAL>.pdf)))",
+            "errors" : [
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id" : "006f400000CQnvxAAD",
+      "name" : "Charak Center for Health and Wellness - 8/23/2018 - 1",
+      "stages" : [
+        {
+          "name" : "AdvancesChecked",
+          "stageStatus" : {
+            "statusStr" : "CompletedStStatus",
+            "log" : "List((Attachment(00Pf4000006KZBBEA4,8-1 - 8-21 STMT.CSV,005f4000001aJNXAA2,006f400000CQnvxAAD),Right(Inbox\\006f400000CQnvxAAD\\8-1 - 8-21 STMT.CSV)), (Attachment(00Pf4000006KZCIEA4,6 Jun 2018 STMT.PDF,005f4000001aJNXAA2,006f400000CQnvxAAD),Right(Inbox\\006f400000CQnvxAAD\\6 Jun 2018 STMT.PDF)), (Attachment(00Pf4000006KZCNEA4,5 May 2018 STMT.PDF,005f4000001aJNXAA2,006f400000CQnvxAAD),Right(Inbox\\006f400000CQnvxAAD\\5 May 2018 STMT.PDF)), (Attachment(00Pf4000006KZCOEA4,8-21-18 FCS CAPITAL APP.PDF,005f4000001aJNXAA2,006f400000CQnvxAAD),Right(Inbox\\006f400000CQnvxAAD\\8-21-18 FCS CAPITAL APP.PDF)), (Attachment(00Pf4000006KZCDEA4,7 Jul 2018 STMT.PDF,005f4000001aJNXAA2,006f400000CQnvxAAD),Right(Inbox\\006f400000CQnvxAAD\\7 Jul 2018 STMT.PDF)))",
+            "errors" : [
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "stages" : [
+    "DocumentsDownloaded",
+    "FilesAttached",
+    "IntegrityValidated",
+    "AdvancesChecked",
+    "MCI"
+  ]
+}
