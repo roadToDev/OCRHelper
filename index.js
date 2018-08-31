@@ -81,7 +81,7 @@ webix.ui({
   elements: form1
 })
 
-webix.ajax().get('data.json', function (t, d) {
+webix.ajax().get('localhost:8080/status', function (t, d) {
   var result = d.json()
   var stagesJson = result.stages
   var opposJson = result.oppos
@@ -90,8 +90,7 @@ webix.ajax().get('data.json', function (t, d) {
     {
       id: 'id',
       header: '#',
-      adjust: 'header',
-      fillspace: true
+      adjust: 'header'
     },
     {
       id: 'name',
