@@ -1,4 +1,4 @@
-/* global $$ webix showContextMenu showAdvancesPopup */
+/* global $$ webix showContextMenu showAdvancesPopup showAccountChosenPopup */
 /* eslint-disable no-unused-vars, no-global-assign */
 
 var blockNumber = 0
@@ -51,11 +51,8 @@ var form1 = [
               case 'CBC pulled':
                 standartLog(stage.stageStatus)
                 break
-              case 'Completed':
-                standartLog(stage.stageStatus)
-                if (stage.stageStatus.statusStr === 'Error') {
-                  webix.message('Please, try to export the statement again')
-                }
+              case 'AccountChosen':
+                showAccountChosenPopup()
                 break
             }
           }
@@ -81,7 +78,7 @@ webix.ui({
   elements: form1
 })
 
-webix.ajax().get('http://localhost:8080/status', function (t, d) {
+webix.ajax().get('data.json', function (t, d) {
   var result = d.json()
   var stagesJson = result.stages
   var opposJson = result.oppos

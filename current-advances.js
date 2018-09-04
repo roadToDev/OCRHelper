@@ -27,17 +27,6 @@ function showAdvancesPopup () {
             {
               cols: [
                 {
-                  id: 'next-block',
-                  view: 'button',
-                  value: 'Next Block',
-                  on: {
-                    'onItemClick': function () {
-                      getAdvancesData(blockNumber + 1)
-                      blockNumber += 1
-                    }
-                  }
-                },
-                {
                   id: 'prev-block',
                   view: 'button',
                   value: 'Previous Block',
@@ -45,6 +34,17 @@ function showAdvancesPopup () {
                     'onItemClick': function () {
                       getAdvancesData(blockNumber - 1)
                       blockNumber -= 1
+                    }
+                  }
+                },
+                {
+                  id: 'next-block',
+                  view: 'button',
+                  value: 'Next Block',
+                  on: {
+                    'onItemClick': function () {
+                      getAdvancesData(blockNumber + 1)
+                      blockNumber += 1
                     }
                   }
                 },
@@ -108,6 +108,7 @@ function showAdvancesPopup () {
                 },
                 {
                   id: 'dropDown',
+                  width: '200',
                   view: 'select',
                   options: [
                     'Placeholder #1',
