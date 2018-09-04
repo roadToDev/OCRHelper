@@ -37,12 +37,15 @@ var form1 = [
                 break
               case 'FilesAttached':
                 standartLog(stage.stageStatus)
+                showLog()
                 break
-              case 'Integrity validated':
+              case 'IntegrityValidated':
+                console.log(stage.stageStatus)
                 standartLog(stage.stageStatus)
-                if (stage.stageStatus.statusStr === 'Error') {
-                  webix.message('Please, open Capture and fix some problems')
-                }
+                  showLog()
+                // if (stage.stageStatus.statusStr === 'Error') {
+                //   webix.message('Please, open Capture and fix some problems')
+                // }
                 break
               case 'AdvancesChecked':
                 //  standartLog(stage.stageStatus);
@@ -78,7 +81,7 @@ webix.ui({
   elements: form1
 })
 
-webix.ajax().get('data.json', function (t, d) {
+webix.ajax().get('http://localhost:8080/status', function (t, d) {
   var result = d.json()
   var stagesJson = result.stages
   var opposJson = result.oppos
@@ -112,7 +115,10 @@ webix.ajax().get('data.json', function (t, d) {
 
         if (innerStage === 'CompletedStStatus') {
           return '<a href="#" class="button button-circle button-action"></a>'
-        } else return '<a href="#" class="button button-circle"></a>'
+        } else if (innerStage === 'ErrorStStatus') {
+            return '<a href="#" class="button button-circle button-caution"></a>'
+        }
+        else return '<a href="#" class="button button-circle"></a>'
       }
     }
   })
@@ -147,7 +153,7 @@ function standartLog (stage) {
     case 'CompletedStStatus':
       $$('log').setValue(stage.log)
       break
-    case 'Error':
+    case 'ErrorStStatus':
       $$('log').setValue(stage.log + '\n' + '\n' + '\n' + 'Errors:\n' + stage.errors)
       break
     case 'In Process':
