@@ -47,7 +47,7 @@ var form1 = [
                 //   webix.message('Please, open Capture and fix some problems')
                 // }
                 break
-              case 'AdvancesChecked':
+              case 'AdvancesReviewed':
                 //  standartLog(stage.stageStatus);
                 showAdvancesPopup()
                 break
@@ -55,7 +55,7 @@ var form1 = [
                 standartLog(stage.stageStatus)
                 showLog()
                 break
-              case 'CBC pulled':
+              case 'ExportedToSF':
                 standartLog(stage.stageStatus)
                 break
               case 'AccountChosen':

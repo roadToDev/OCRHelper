@@ -44,7 +44,7 @@ function showAccountChosenPopup (accId) {
               'onItemClick': function () {
                 sendAccount(accountToSend)
                 $$('accounts-popup').hide()
-                //  webix.message('Sent -> ' + accountToSend)
+                webix.message('Sent -> ' + accountToSend)
               }
             }
           }
