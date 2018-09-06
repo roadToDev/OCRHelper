@@ -1,4 +1,4 @@
-/* global $$ webix showContextMenu showAdvancesPopup showAccountChosenPopup */
+/* global $$ webix showContextMenu showAdvancesPopup showAccountChosenPopup accountToSend sendAccount */
 /* eslint-disable no-unused-vars, no-global-assign */
 
 var blockNumber = 0
@@ -19,10 +19,10 @@ var form1 = [
         id: 'dtable',
         css: 'my-dtable',
         dynamic: true,
+        columns: [],
         on: {
           'onItemClick': function (id, e, node) {
             var item = this.getItem(id)
-            //   webix.message(id.column)
             var stage = item.stages.find(function (element) {
               return element.name === id.column
             })
@@ -42,7 +42,7 @@ var form1 = [
               case 'IntegrityValidated':
                 console.log(stage.stageStatus)
                 standartLog(stage.stageStatus)
-                  showLog()
+                showLog()
                 // if (stage.stageStatus.statusStr === 'Error') {
                 //   webix.message('Please, open Capture and fix some problems')
                 // }
@@ -51,11 +51,15 @@ var form1 = [
                 //  standartLog(stage.stageStatus);
                 showAdvancesPopup()
                 break
+              case 'SubmissionValidated':
+                standartLog(stage.stageStatus)
+                showLog()
+                break
               case 'CBC pulled':
                 standartLog(stage.stageStatus)
                 break
               case 'AccountChosen':
-                showAccountChosenPopup()
+                showAccountChosenPopup(item.id)
                 break
             }
           }
@@ -71,7 +75,10 @@ var form1 = [
         value: 'Here is log',
         width: 300
 
-      }] }]
+      }
+    ]
+  }
+]
 
 webix.ui({
   view: 'form',
@@ -81,53 +88,56 @@ webix.ui({
   elements: form1
 })
 
-webix.ajax().get('http://localhost:8080/status', function (t, d) {
-  var result = d.json()
-  var stagesJson = result.stages
-  var opposJson = result.oppos
+function showTable () {
+  webix.ajax().get('http://localhost:8080/status', function (t, d) {
+    var result = d.json()
+    var stagesJson = result.stages
+    var opposJson = result.oppos
 
-  var staticColumns = [
-    {
-      id: 'id',
-      header: '#',
-      adjust: 'header'
-    },
-    {
-      id: 'name',
-      header: 'Opportunity',
-      adjust: 'header',
-      fillspace: true
-    }
-  ]
-
-  var columns = stagesJson.map(function (stage) {
-    return {
-      id: stage,
-      header: stage,
-      css: { 'text-align': 'center' },
-      adjust: 'header',
-      template: function (row) {
-        var innerStage = row.stages.find(function (item) {
-          return item.name === stage
-        })
-
-        innerStage = innerStage && innerStage.stageStatus.statusStr
-
-        if (innerStage === 'CompletedStStatus') {
-          return '<a href="#" class="button button-circle button-action"></a>'
-        } else if (innerStage === 'ErrorStStatus') {
-            return '<a href="#" class="button button-circle button-caution"></a>'
-        }
-        else return '<a href="#" class="button button-circle"></a>'
+    var staticColumns = [
+      {
+        id: 'id',
+        header: '#',
+        adjust: 'header'
+      },
+      {
+        id: 'name',
+        header: 'Opportunity',
+        adjust: 'header',
+        fillspace: true
       }
-    }
+    ]
+
+    var columns = stagesJson.map(function (stage) {
+      return {
+        id: stage,
+        header: stage,
+        css: { 'text-align': 'center' },
+        adjust: 'header',
+        template: function (row) {
+          var innerStage = row.stages.find(function (item) {
+            return item.name === stage
+          })
+
+          innerStage = innerStage && innerStage.stageStatus.statusStr
+
+          if (innerStage === 'CompletedStStatus') {
+            return '<a href="#" class="button button-circle button-action"></a>'
+          } else if (innerStage === 'ErrorStStatus') {
+            return '<a href="#" class="button button-circle button-caution"></a>'
+          } else return '<a href="#" class="button button-circle"></a>'
+        }
+      }
+    })
+
+    $$('dtable').config.columns = staticColumns.concat(columns)
+
+    $$('dtable').refreshColumns()
+    $$('dtable').clearAll()
+    $$('dtable').parse(result.oppos)
   })
-
-  $$('dtable').config.columns = staticColumns.concat(columns)
-
-  $$('dtable').refreshColumns()
-  $$('dtable').parse(result.oppos)
-})
+}
+showTable()
 
 function showHideLog () {
   var logButton = document.getElementById('logButton')

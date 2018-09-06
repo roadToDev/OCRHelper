@@ -1,13 +1,13 @@
-/* global $$ webix */
+/* global $$ webix showTable sendAccount */
 
 /* eslint-disable no-unused-vars, no-global-assign */
+var accountToSend = ''
 
-function showAccountChosenPopup() {
-  var accountNumber = ''
-
-  webix.ajax().get('accounts.json', function (t, d) {
-    console.log(d.json())
-    $$('accounts-list').parse(d.json())
+// webix.ui()
+function showAccountChosenPopup (accId) {
+  webix.ajax().get('http://localhost:8080/accounts/' + accId, function (t, d) {
+    // console.log(d.json().accounts)
+    $$('accounts-list').parse(d.json().accounts)
   })
 
   webix.ui({
@@ -25,11 +25,11 @@ function showAccountChosenPopup() {
             height: 100,
             select: true,
             id: 'accounts-list',
-            template: '#accountNumber#',
+            // template: '#accountNumber#',
             on: {
               'onItemClick': function (id) {
                 var item = this.getItem(id)
-                accountNumber = item.accountNumber
+                accountToSend = item.value
               }
             }
           },
@@ -42,7 +42,9 @@ function showAccountChosenPopup() {
             value: 'Send',
             on: {
               'onItemClick': function () {
-                webix.message('Sent -> ' + accountNumber)
+                sendAccount(accountToSend)
+                $$('accounts-popup').hide()
+                //  webix.message('Sent -> ' + accountToSend)
               }
             }
           }
@@ -51,4 +53,22 @@ function showAccountChosenPopup() {
     }
 
   }).show()
+
+  function sendAccount (account) {
+    window.fetch('http://localhost:8080/accounts', {
+      method: 'POST',
+      //  mode: 'no-cors',
+      body: JSON.stringify({
+        'oppoId': accId,
+        'accountId': account
+      })
+    }).then(function (response) {
+      if (response.status !== 200) {
+        window.alert('not 200')
+      }
+      console.log(response.statusText)
+    }).catch(window.alert).then(function () {
+      showTable()
+    })
+  }
 }
