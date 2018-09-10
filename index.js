@@ -1,4 +1,4 @@
-/* global $$ webix showContextMenu showAdvancesPopup showAccountChosenPopup accountToSend sendAccount showFilesAttached */
+/* global $$ webix showContextMenu showAdvancesPopup showAccountChosenPopup accountToSend sendAccount showFilesAttached attachLog */
 /* eslint-disable no-unused-vars, no-global-assign */
 
 var blockNumber = 0
@@ -7,7 +7,7 @@ var form1 = [
   {
     type: 'header',
     template: function () {
-      return "<div class='header-container'><div>OCR Helper</div><div> <input type='button' id='logButton' onclick='showHideLog()' value='Show Log' class='logButton'' /></div></div>"
+      return "<div class='header-container'><div>OCR Helper</div></div>"
     }
   },
   {
@@ -32,18 +32,17 @@ var form1 = [
 
                 break
               case 'DocumentsDownloaded':
-                standartLog(stage.stageStatus)
-                showLog()
+                // standartLog(stage.stageStatus)
+                // showLog()
+                showLogPopUp(stage.stageStatus)
                 break
               case 'FilesAttached':
-                standartLog(stage.stageStatus)
-                //showLog()
                 showFilesAttached()
+                attachLog(stage.stageStatus)
+
                 break
               case 'IntegrityValidated':
-                console.log(stage.stageStatus)
-                standartLog(stage.stageStatus)
-                showLog()
+                showLogPopUp(stage.stageStatus)
                 // if (stage.stageStatus.statusStr === 'Error') {
                 //   webix.message('Please, open Capture and fix some problems')
                 // }
@@ -53,11 +52,10 @@ var form1 = [
                 showAdvancesPopup()
                 break
               case 'SubmissionValidated':
-                standartLog(stage.stageStatus)
-                showLog()
+                showLogPopUp(stage.stageStatus)
                 break
               case 'ExportedToSF':
-                standartLog(stage.stageStatus)
+                showLogPopUp(stage.stageStatus)
                 break
               case 'AccountChosen':
                 showAccountChosenPopup(item.id)
@@ -67,7 +65,7 @@ var form1 = [
         }
 
       },
-      { view: 'resizer' },
+      {view: 'resizer'},
       {
         id: 'log',
         view: 'textarea',
@@ -89,7 +87,7 @@ webix.ui({
   elements: form1
 })
 
-function showTable () {
+function showTable() {
   webix.ajax().get('http://localhost:8080/status', function (t, d) {
     var result = d.json()
     var stagesJson = result.stages
@@ -113,7 +111,7 @@ function showTable () {
       return {
         id: stage,
         header: stage,
-        css: { 'text-align': 'center' },
+        css: {'text-align': 'center'},
         adjust: 'header',
         template: function (row) {
           var innerStage = row.stages.find(function (item) {
@@ -138,9 +136,10 @@ function showTable () {
     $$('dtable').parse(result.oppos)
   })
 }
+
 showTable()
 
-function showHideLog () {
+function showHideLog() {
   var logButton = document.getElementById('logButton')
   if (!$$('log').isVisible()) {
     logButton.value = 'Hide Log'
@@ -151,7 +150,7 @@ function showHideLog () {
   }
 }
 
-function showLog () {
+function showLog() {
   var logButton = document.getElementById('logButton')
   if (!$$('log').isVisible()) {
     logButton.value = 'Hide Log'
@@ -159,7 +158,7 @@ function showLog () {
   }
 }
 
-function standartLog (stage) {
+function standartLog(stage) {
   switch (stage.statusStr) {
     case 'CompletedStStatus':
       $$('log').setValue(stage.log)
@@ -171,4 +170,44 @@ function standartLog (stage) {
       $$('log').setValue(stage.log)
   }
   // $$("Current Advances").hide();
+}
+
+function showLogPopUp(stage) {
+  webix.ui({
+    view: 'popup',
+    position: 'center',
+    id: 'files-attached',
+    body: {
+      id: 'files-toolbar',
+      view: 'toolbar',
+      width: 1000,
+      height: 600,
+      hidden: true,
+      elements: [{
+        rows: [{
+          type: 'header',
+          template: function () {
+            return "<div class='header-container'><div><div>Log</div></div>"
+          }
+        }, {
+          id: 'logg',
+          view: 'textarea',
+          css: 'logSpace',
+          value: 'Here is log'
+        }
+        ]
+      }
+      ]
+    }
+  }).show()
+  switch (stage.statusStr) {
+    case 'CompletedStStatus':
+      $$('logg').setValue(stage.log)
+      break
+    case 'ErrorStStatus':
+      $$('logg').setValue(stage.log + '\n' + '\n' + '\n' + 'Errors:\n' + stage.errors)
+      break
+    case 'In Process':
+      $$('logg').setValue(stage.log)
+  }
 }

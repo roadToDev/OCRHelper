@@ -1,29 +1,35 @@
 /* global $$ webix blockNumber removeBlock */
+
 /* eslint-disable no-unused-vars, no-global-assign */
 function showAdvancesPopup () {
-  var block = ''
+  var jsonFile = ''
   webix.ajax().get('adv.json', function (t, d) {
     $$('advTable').parse(d.json().blocks[blockNumber])
-    block = d.json()
-   // console.log(block)
+    jsonFile = d.json()
   })
 
-  function getAdvancesData (elem) {
+  function getAdvancesData (blockNumber) {
     $$('advTable').clearAll()
-    webix.ajax().get('adv.json', function (t, d) {
-      $$('advTable').parse(block.blocks[elem])
-    })
+    $$('advTable').parse(jsonFile.blocks[blockNumber])
   }
 
   function changeAdvancesData (description) {
     $$('advTable').clearAll()
-    webix.ajax().get('adv.json', function () {
-      block.blocks[blockNumber].forEach(function (item, i, arr) {
-        console.log(arr[i].descr)
-        arr[i].descr = description
-      })
-      $$('advTable').parse(block.blocks[blockNumber])
+    jsonFile.blocks[blockNumber].forEach(function (item, i, arr) {
+      console.log(arr[i].descr)
+      arr[i].descr = description
     })
+    $$('advTable').parse(jsonFile.blocks[blockNumber])
+  }
+
+  function removeBlock (blockNumber) {
+    $$('advTable').clearAll()
+
+    var index = jsonFile.blocks.indexOf(jsonFile.blocks[blockNumber])
+    if (index > -1) {
+      jsonFile.blocks.splice(index, 1)
+    }
+    $$('advTable').parse(jsonFile.blocks[0])
   }
 
   webix.ui({
@@ -41,7 +47,7 @@ function showAdvancesPopup () {
             {
               cols: [
                 {
-                  id: 'prev-block',
+                  id: 'prev-jsonFile',
                   view: 'button',
                   value: 'Previous Block',
                   on: {
@@ -52,7 +58,7 @@ function showAdvancesPopup () {
                   }
                 },
                 {
-                  id: 'next-block',
+                  id: 'next-jsonFile',
                   view: 'button',
                   value: 'Next Block',
                   on: {
@@ -63,7 +69,7 @@ function showAdvancesPopup () {
                   }
                 },
                 {
-                  id: 'ignore-block',
+                  id: 'ignore-jsonFile',
                   view: 'button',
                   value: 'Ignore Block',
                   on: {
@@ -72,7 +78,7 @@ function showAdvancesPopup () {
                   }
                 },
                 {
-                  id: 'remove-block',
+                  id: 'remove-jsonFile',
                   view: 'button',
                   value: 'Remove Block',
                   on: {
@@ -82,7 +88,7 @@ function showAdvancesPopup () {
                   }
                 },
                 {
-                  id: 'fixed-block',
+                  id: 'fixed-jsonFile',
                   view: 'button',
                   value: 'Mark As Fixed Block',
                   on: {
@@ -95,7 +101,7 @@ function showAdvancesPopup () {
                 }
               ]
             },
-            { height: 7 },
+            {height: 7},
             {
               view: 'datatable',
               scroll: true,
@@ -103,10 +109,10 @@ function showAdvancesPopup () {
               id: 'advTable',
               resizeColumn: true,
               columns: [
-                { id: 'date', header: 'Date' },
-                { id: 'descr', header: 'Description', fillspace: true },
-                { id: 'amount', header: 'Amount' },
-                { id: 'tags', header: 'Tags', width: 180 }
+                {id: 'date', header: 'Date'},
+                {id: 'descr', header: 'Description', fillspace: true},
+                {id: 'amount', header: 'Amount'},
+                {id: 'tags', header: 'Tags', width: 180}
               ],
               on: {
                 'onItemClick': function (id, e, node) {
