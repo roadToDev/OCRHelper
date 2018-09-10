@@ -1,14 +1,28 @@
 /* global $$ webix blockNumber removeBlock */
 /* eslint-disable no-unused-vars, no-global-assign */
 function showAdvancesPopup () {
+  var block = ''
   webix.ajax().get('adv.json', function (t, d) {
     $$('advTable').parse(d.json().blocks[blockNumber])
+    block = d.json()
+   // console.log(block)
   })
 
   function getAdvancesData (elem) {
     $$('advTable').clearAll()
     webix.ajax().get('adv.json', function (t, d) {
-      $$('advTable').parse(d.json().blocks[elem])
+      $$('advTable').parse(block.blocks[elem])
+    })
+  }
+
+  function changeAdvancesData (description) {
+    $$('advTable').clearAll()
+    webix.ajax().get('adv.json', function () {
+      block.blocks[blockNumber].forEach(function (item, i, arr) {
+        console.log(arr[i].descr)
+        arr[i].descr = description
+      })
+      $$('advTable').parse(block.blocks[blockNumber])
     })
   }
 
@@ -73,6 +87,9 @@ function showAdvancesPopup () {
                   value: 'Mark As Fixed Block',
                   on: {
                     'onItemClick': function () {
+                      var description = $$('AdvanceEditor').getValue(0)
+                      console.log(description)
+                      changeAdvancesData(description)
                     }
                   }
                 }

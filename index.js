@@ -1,4 +1,4 @@
-/* global $$ webix showContextMenu showAdvancesPopup showAccountChosenPopup accountToSend sendAccount */
+/* global $$ webix showContextMenu showAdvancesPopup showAccountChosenPopup accountToSend sendAccount showFilesAttached */
 /* eslint-disable no-unused-vars, no-global-assign */
 
 var blockNumber = 0
@@ -37,7 +37,8 @@ var form1 = [
                 break
               case 'FilesAttached':
                 standartLog(stage.stageStatus)
-                showLog()
+                //showLog()
+                showFilesAttached()
                 break
               case 'IntegrityValidated':
                 console.log(stage.stageStatus)
