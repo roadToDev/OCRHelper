@@ -3,8 +3,11 @@
 /* eslint-disable no-unused-vars, no-global-assign */
 var accountToSend = ''
 
+var accountId = ''
+
 // webix.ui()
 function showAccountChosenPopup (accId) {
+  accountId = accId
   webix.ajax().get('http://localhost:8080/accounts/' + accId, function (t, d) {
     // console.log(d.json().accounts)
     $$('accounts-list').parse(d.json().accounts)
@@ -17,12 +20,21 @@ function showAccountChosenPopup (accId) {
     body: {
       id: 'advances',
       view: 'toolbar',
+      width: 800,
+      height: 600,
       hidden: true,
       elements: [{
-        rows: [
+        rows: [ {
+
+          type: 'header',
+          template: function () {
+            return "<div class='header-container'><div> <input type='button' id='send-account' onclick='sendAccount(accountToSend)' value='Send Account Number' class='logButton'' /></div><div>Accounts</div></div>"
+          }
+
+        }, { cols: [
           {
             view: 'list',
-            height: 100,
+            width: 300,
             select: true,
             id: 'accounts-list',
             // template: '#accountNumber#',
@@ -34,41 +46,33 @@ function showAccountChosenPopup (accId) {
             }
           },
           {
-            height: 5
-          },
-          {
-            id: 'send',
-            view: 'button',
-            value: 'Send',
-            on: {
-              'onItemClick': function () {
-                sendAccount(accountToSend)
-                $$('accounts-popup').hide()
-                webix.message('Sent -> ' + accountToSend)
-              }
-            }
-          }
+            id: 'log',
+            view: 'textarea',
+            css: 'logSpace',
+            value: 'Here is log'
+          }]
+        }
         ]
       }]
     }
 
   }).show()
+}
 
-  function sendAccount (account) {
-    window.fetch('http://localhost:8080/accounts', {
-      method: 'POST',
-      //  mode: 'no-cors',
-      body: JSON.stringify({
-        'oppoId': accId,
-        'accountId': account
-      })
-    }).then(function (response) {
-      if (response.status !== 200) {
-        window.alert('not 200')
-      }
-      console.log(response.statusText)
-    }).catch(window.alert).then(function () {
-      showTable()
+function sendAccount (account) {
+  window.fetch('http://localhost:8080/accounts', {
+    method: 'POST',
+    body: JSON.stringify({
+      'oppoId': accountId,
+      'accountId': account
     })
-  }
+  }).then(function (response) {
+    if (response.status !== 200) {
+      window.alert('not 200')
+    }
+    console.log(response.statusText)
+  }).catch(window.alert).then(function () {
+    showTable()
+  })
+  $$('log').setValue('Sent -> Account Number: ' + account)
 }

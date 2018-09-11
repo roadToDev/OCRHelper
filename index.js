@@ -59,20 +59,11 @@ var form1 = [
                 break
               case 'AccountChosen':
                 showAccountChosenPopup(item.id)
+                attachLog(stage.stageStatus)
                 break
             }
           }
         }
-
-      },
-      {view: 'resizer'},
-      {
-        id: 'log',
-        view: 'textarea',
-        hidden: true,
-        css: 'logSpace',
-        value: 'Here is log',
-        width: 300
 
       }
     ]
@@ -139,38 +130,16 @@ function showTable() {
 
 showTable()
 
-function showHideLog() {
-  var logButton = document.getElementById('logButton')
-  if (!$$('log').isVisible()) {
-    logButton.value = 'Hide Log'
-    $$('log').show()
-  } else {
-    logButton.value = 'Show Log'
-    $$('log').hide()
-  }
-}
-
-function showLog() {
-  var logButton = document.getElementById('logButton')
-  if (!$$('log').isVisible()) {
-    logButton.value = 'Hide Log'
-    $$('log').show()
-  }
-}
-
-function standartLog(stage) {
-  switch (stage.statusStr) {
-    case 'CompletedStStatus':
-      $$('log').setValue(stage.log)
-      break
-    case 'ErrorStStatus':
-      $$('log').setValue(stage.log + '\n' + '\n' + '\n' + 'Errors:\n' + stage.errors)
-      break
-    case 'In Process':
-      $$('log').setValue(stage.log)
-  }
-  // $$("Current Advances").hide();
-}
+// function showHideLog() {
+//   var logButton = document.getElementById('logButton')
+//   if (!$$('log').isVisible()) {
+//     logButton.value = 'Hide Log'
+//     $$('log').show()
+//   } else {
+//     logButton.value = 'Show Log'
+//     $$('log').hide()
+//   }
+// }
 
 function showLogPopUp(stage) {
   webix.ui({
@@ -209,5 +178,18 @@ function showLogPopUp(stage) {
       break
     case 'In Process':
       $$('logg').setValue(stage.log)
+  }
+}
+
+function attachLog (stage) {
+  switch (stage.statusStr) {
+    case 'CompletedStStatus':
+      $$('log').setValue(stage.log)
+      break
+    case 'ErrorStStatus':
+      $$('log').setValue(stage.log + '\n' + '\n' + '\n' + 'Errors:\n' + stage.errors)
+      break
+    case 'In Process':
+      $$('log').setValue(stage.log)
   }
 }

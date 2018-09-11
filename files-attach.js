@@ -53,7 +53,7 @@ function showFilesAttached () {
           },
           { view: 'resizer' },
           {
-            id: 'log2',
+            id: 'log',
             view: 'textarea',
             css: 'logSpace',
             value: 'Here is log'
@@ -64,17 +64,4 @@ function showFilesAttached () {
       ]
     }
   }).show()
-}
-
-function attachLog (stage) {
-  switch (stage.statusStr) {
-    case 'CompletedStStatus':
-      $$('log2').setValue(stage.log)
-      break
-    case 'ErrorStStatus':
-      $$('log2').setValue(stage.log + '\n' + '\n' + '\n' + 'Errors:\n' + stage.errors)
-      break
-    case 'In Process':
-      $$('log2').setValue(stage.log)
-  }
 }
