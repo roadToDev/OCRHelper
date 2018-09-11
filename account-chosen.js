@@ -20,7 +20,7 @@ function showAccountChosenPopup (accId) {
     body: {
       id: 'advances',
       view: 'toolbar',
-      width: 800,
+      width: 1000,
       height: 600,
       hidden: true,
       elements: [{

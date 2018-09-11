@@ -37,7 +37,7 @@ var form1 = [
                 showLogPopUp(stage.stageStatus)
                 break
               case 'FilesAttached':
-                showFilesAttached()
+                showFilesAttached(item.id)
                 attachLog(stage.stageStatus)
 
                 break
