@@ -2,13 +2,13 @@
 /* eslint-disable no-unused-vars, no-global-assign */
 
 var blockNumber = 0
-
+var opportunityId = ''
 
 var form1 = [
   {
     type: 'header',
     template: function () {
-      return "<div class='header-container'><div>OCR Helper</div><div> <input type='button' id='sign-in' onclick='signIn()' value='Sign In' class='logButton'' /></div></div>"
+      return "<div class='header-container'><div>OCR Helper &nbsp&nbsp&nbsp&nbsp&nbsp;<input type='button' id='reset-opportunity' onclick='resetOpportunity()' value='Reset Opportunity' class='logButton'' /></div></div>"
     }
   },
   {
@@ -29,8 +29,7 @@ var form1 = [
             })
             switch (id.column) {
               case 'name':
-                showContextMenu(node)
-
+                opportunityId = item.id
                 break
               case 'DocumentsDownloaded':
                 // standartLog(stage.stageStatus)
@@ -80,7 +79,7 @@ webix.ui({
 })
 
 function showTable () {
-  webix.ajax().get('http://localhost:8080/status', function (t, d) {
+  webix.ajax().get('localhost:8080/status', function (t, d) {
     var result = d.json()
     var stagesJson = result.stages
     var opposJson = result.oppos
@@ -195,3 +194,21 @@ function attachLog (stage) {
   }
 }
 
+function resetOpportunity () {
+  if (opportunityId !== '') {
+    window.fetch('http://localhost:8080/reset/' + opportunityId, {
+      method: 'POST',
+      body: JSON.stringify({
+        'id': opportunityId
+      })
+    }).then(function (response) {
+      if (response.status !== 200) {
+        window.alert('not 200')
+      }
+      console.log(response.status)
+      console.log(response.statusText)
+    }).catch(window.alert).then(function () {
+      showTable()
+    })
+  } else webix.message('Need to choose Opportunity')
+}
