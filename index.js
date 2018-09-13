@@ -3,11 +3,12 @@
 
 var blockNumber = 0
 
+
 var form1 = [
   {
     type: 'header',
     template: function () {
-      return "<div class='header-container'><div>OCR Helper</div></div>"
+      return "<div class='header-container'><div>OCR Helper</div><div> <input type='button' id='sign-in' onclick='signIn()' value='Sign In' class='logButton'' /></div></div>"
     }
   },
   {
@@ -78,7 +79,7 @@ webix.ui({
   elements: form1
 })
 
-function showTable() {
+function showTable () {
   webix.ajax().get('http://localhost:8080/status', function (t, d) {
     var result = d.json()
     var stagesJson = result.stages
@@ -102,7 +103,7 @@ function showTable() {
       return {
         id: stage,
         header: stage,
-        css: {'text-align': 'center'},
+        css: { 'text-align': 'center' },
         adjust: 'header',
         template: function (row) {
           var innerStage = row.stages.find(function (item) {
@@ -141,7 +142,7 @@ showTable()
 //   }
 // }
 
-function showLogPopUp(stage) {
+function showLogPopUp (stage) {
   webix.ui({
     view: 'popup',
     position: 'center',
@@ -193,3 +194,4 @@ function attachLog (stage) {
       $$('log').setValue(stage.log)
   }
 }
+

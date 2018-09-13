@@ -1,12 +1,18 @@
-[
+{
+  "accounts": [
     {
-      "accountNumber": "0800324245"
+      "name": "Alex",
+      "token": "12345"
     },
     {
-      "accountNumber": "0892131421"
+      "name": "Daria",
+      "token": "12345"
     },
     {
-      "accountNumber": "0214124124"
+      "name": "Jesus",
+      "token": "12345"
     }
   ]
+}
+
 
