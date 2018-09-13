@@ -197,10 +197,10 @@ function attachLog (stage) {
 function resetOpportunity () {
   if (opportunityId !== '') {
     window.fetch('http://localhost:8080/reset/' + opportunityId, {
-      method: 'POST',
-      body: JSON.stringify({
-        'id': opportunityId
-      })
+      method: 'POST'
+      // body: JSON.stringify({
+      //   'id': opportunityId
+      // })
     }).then(function (response) {
       if (response.status !== 200) {
         window.alert('not 200')
