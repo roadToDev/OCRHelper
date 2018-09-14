@@ -68,7 +68,7 @@ function sendAccount (account) {
     })
   }).then(function (response) {
     if (response.status !== 200) {
-      window.alert('not 200')
+      window.alert('not 200' + 'status is: ' + response.status + ' ' + response.statusText)
     }
     console.log(response.statusText)
   }).catch(window.alert).then(function () {

@@ -203,7 +203,7 @@ function resetOpportunity () {
       // })
     }).then(function (response) {
       if (response.status !== 200) {
-        window.alert('not 200')
+        window.alert('not 200' + 'status is: ' + response.status + ' ' + response.statusText)
       }
       console.log(response.status)
       console.log(response.statusText)
