@@ -79,7 +79,7 @@ webix.ui({
 })
 
 function showTable () {
-  webix.ajax().get('localhost:8080/status', function (t, d) {
+  webix.ajax().get('http://localhost:8080/status', function (t, d) {
     var result = d.json()
     var stagesJson = result.stages
     var opposJson = result.oppos
@@ -197,7 +197,7 @@ function attachLog (stage) {
 function resetOpportunity () {
   if (opportunityId !== '') {
     window.fetch('http://localhost:8080/reset/' + opportunityId, {
-      method: 'POST'
+      method: 'GET'
       // body: JSON.stringify({
       //   'id': opportunityId
       // })
