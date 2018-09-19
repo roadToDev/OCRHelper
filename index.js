@@ -85,7 +85,7 @@ webix.ui({
 })
 
 function showTable () {
-  webix.ajax().get('data.json', function (t, d) {
+  webix.ajax().get('http://localhost:8080/status', function (t, d) {
     var result = d.json()
     var stagesJson = result.stages
     var opposJson = result.oppos
