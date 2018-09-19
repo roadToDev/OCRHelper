@@ -9,7 +9,7 @@ var form1 = [
   {
     type: 'header',
     template: function () {
-      return "<div class='header-container'><div>OCR Helper &nbsp&nbsp&nbsp&nbsp&nbsp;<input type='button' id='reset-opportunity' onclick='resetOpportunity()' value='Reset Opportunity' class='logButton'' /></div></div>"
+      return "<div class='header-container'><div>OCR Helper</div></div>"
     }
   },
   {
@@ -85,7 +85,7 @@ webix.ui({
 })
 
 function showTable () {
-  webix.ajax().get('http://localhost:8080/status', function (t, d) {
+  webix.ajax().get('data.json', function (t, d) {
     var result = d.json()
     var stagesJson = result.stages
     var opposJson = result.oppos
@@ -132,20 +132,10 @@ function showTable () {
     $$('dtable').clearAll()
     $$('dtable').parse(result.oppos)
   })
+    console.log("1")
 }
 
-showTable()
-
-// function showHideLog() {
-//   var logButton = document.getElementById('logButton')
-//   if (!$$('log').isVisible()) {
-//     logButton.value = 'Hide Log'
-//     $$('log').show()
-//   } else {
-//     logButton.value = 'Show Log'
-//     $$('log').hide()
-//   }
-// }
+setInterval(showTable, 1000)
 
 function showLogPopUp (stage) {
   webix.ui({
@@ -198,25 +188,6 @@ function attachLog (stage) {
     case 'In Process':
       $$('log').setValue(stage.log)
   }
-}
-
-function resetOpportunity () {
-  if (opportunityId !== '') {
-    window.fetch('http://localhost:8080/reset/' + opportunityId, {
-      method: 'GET'
-      // body: JSON.stringify({
-      //   'id': opportunityId
-      // })
-    }).then(function (response) {
-      if (response.status !== 200) {
-        window.alert('not 200' + 'status is: ' + response.status + ' ' + response.statusText)
-      }
-      console.log(response.status)
-      console.log(response.statusText)
-    }).catch(window.alert).then(function () {
-      showTable()
-    })
-  } else webix.message('Need to choose Opportunity')
 }
 
 function resetStage() {
