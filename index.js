@@ -3,6 +3,7 @@
 
 var blockNumber = 0
 var opportunityId = ''
+var opportunityStage = ''
 
 var form1 = [
   {
@@ -32,32 +33,37 @@ var form1 = [
                 opportunityId = item.id
                 break
               case 'DocumentsDownloaded':
-                // standartLog(stage.stageStatus)
-                // showLog()
+                setSelectedOppoIdAndStageName(item.id, 'DocumentsDownloaded')
                 showLogPopUp(stage.stageStatus)
                 break
               case 'FilesAttached':
+                  setSelectedOppoIdAndStageName(item.id, 'FilesAttached')
                 showFilesAttached(item.id)
                 attachLog(stage.stageStatus)
 
                 break
               case 'IntegrityValidated':
+                  setSelectedOppoIdAndStageName(item.id, 'IntegrityValidated')
                 showLogPopUp(stage.stageStatus)
                 // if (stage.stageStatus.statusStr === 'Error') {
                 //   webix.message('Please, open Capture and fix some problems')
                 // }
                 break
               case 'AdvancesReviewed':
+                  setSelectedOppoIdAndStageName(item.id, 'AdvancesReviewed')
                 //  standartLog(stage.stageStatus);
                 showAdvancesPopup()
                 break
               case 'SubmissionValidated':
+                  setSelectedOppoIdAndStageName(item.id, 'SubmissionValidated')
                 showLogPopUp(stage.stageStatus)
                 break
               case 'ExportedToSF':
+                  setSelectedOppoIdAndStageName(item.id, 'ExportedToSF')
                 showLogPopUp(stage.stageStatus)
                 break
               case 'AccountChosen':
+                setSelectedOppoIdAndStageName(item.id, 'AccountChosen')
                 showAccountChosenPopup(item.id)
                 attachLog(stage.stageStatus)
                 break
@@ -156,7 +162,7 @@ function showLogPopUp (stage) {
         rows: [{
           type: 'header',
           template: function () {
-            return "<div class='header-container'><div><div>Log</div></div>"
+            return "<div class='header-container'><div>Log</div><div><input type='button' onclick='resetStage()' value='Stage Reset' class='logButton'' /></div></div>"
           }
         }, {
           id: 'logg',
@@ -211,4 +217,25 @@ function resetOpportunity () {
       showTable()
     })
   } else webix.message('Need to choose Opportunity')
+}
+
+function resetStage() {
+    if (opportunityId !== '' && opportunityStage !== '') {
+        window.fetch('http://localhost:8080/reset/' + opportunityId  + '/' + opportunityStage, {
+            method: 'GET'
+        }).then(function (response) {
+            if (response.status !== 200) {
+                window.alert('not 200' + 'status is: ' + response.status + ' ' + response.statusText)
+            }
+            console.log(response.status)
+            console.log(response.statusText)
+        }).catch(window.alert).then(function () {
+            showTable()
+        })
+    } else webix.message('No \'id\' or \'stage\'')
+}
+
+function setSelectedOppoIdAndStageName(id, stage) {
+  opportunityId = id
+  opportunityStage = stage
 }

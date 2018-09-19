@@ -28,7 +28,7 @@ function showFilesAttached (id) {
         rows: [{
           type: 'header',
           template: function () {
-            return "<div class='header-container'><div> <input type='button' id='send-files-attached' onclick='sendFilesAttached()' value='Send Files Attached' class='logButton'' /></div><div>Files Attached</div></div>"
+            return "<div class='header-container'><div> <input type='button' id='send-files-attached' onclick='sendFilesAttached()' value='Send Files Attached' class='logButton'' /></div><div><input type='button' onclick='resetStage()' value='Stage Reset' class='logButton'' /></div><div>Files Attached</div></div>"
           }
         },
         {

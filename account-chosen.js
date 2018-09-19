@@ -28,7 +28,7 @@ function showAccountChosenPopup (accId) {
 
           type: 'header',
           template: function () {
-            return "<div class='header-container'><div> <input type='button' id='send-account' onclick='sendAccount(accountToSend)' value='Send Account Number' class='logButton'' /></div><div>Accounts</div></div>"
+            return "<div class='header-container'><div> <input type='button' id='send-account' onclick='sendAccount(accountToSend)' value='Send Account Number' class='logButton'' /></div><div><input type='button' onclick='resetStage()' value='Stage Reset' class='logButton'' /></div><div>Accounts</div></div>"
           }
 
         }, { cols: [
