@@ -132,7 +132,6 @@ function showTable () {
     $$('dtable').clearAll()
     $$('dtable').parse(result.oppos)
   })
-    console.log("1")
 }
 
 setInterval(showTable, 1000)
