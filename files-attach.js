@@ -79,14 +79,14 @@ function showFilesAttached (id) {
 }
 
 function sendFilesAttached () {
+  var accounts = []
+    jsonStr.forEach(function (acc) {
+        accounts.push(acc)
+    })
   window.fetch('http://localhost:8080/files/' + accountId, {
     method: 'POST',
     body: JSON.stringify({
-      'files': [
-        jsonStr[0],
-        jsonStr[1],
-        jsonStr[2]
-      ]
+      'files': accounts
     })
   }).then(function (response) {
     if (response.status !== 200) {
